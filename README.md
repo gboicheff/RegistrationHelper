@@ -12,3 +12,9 @@ A chrome extension that augments UF's registration website.
 ## How to use it
 1. Clone the repo
 2. Add it to your chrome extensions using the load unpacked button on the repo folder
+
+
+
+## TODO
+* Add more features
+* Publish to chrome store
