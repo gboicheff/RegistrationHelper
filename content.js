@@ -46,12 +46,9 @@ function removeFull(added_node){
     let seatsNode = $(added_node).find(".MuiChip-label")
     let seatsText = $(seatsNode).text()
     if(seatsNode.length == 0 || (seatsText != "" && !seatsText.includes("Seats:"))){
-        try{
-            console.log("zap")
-            $(added_node).remove()
-        }
-        catch(error){
-            console.log("failed to zap")
+        if(!$(added_node).attr("zapped")){
+            $(added_node).hide()
+            $(added_node).attr("zapped", "true")
         }
     }
 }
