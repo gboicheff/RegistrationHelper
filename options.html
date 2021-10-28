@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Registration Helper Options
+    </title>
+    <style>
+        h1 {
+            color: blue;
+        }
+          
+        input[type=checkbox] {
+            vertical-align: middle;
+            position: relative;
+            bottom: 1px;
+        }
+          
+        label {
+            display: block;
+        }
+    </style>
+</head>
+  
+<body>
+    <h1>Registration Helper Options</h1>
+    <label>
+        <input type="checkbox" id="add_rmp_links"> 
+        Add RMP links on professor names
+    </label>
+
+    <label>
+        <input type="checkbox" id="highlight_easy_classes"> 
+        Indicate easy classes with green names
+    </label>
+
+    <label>
+        <input type="checkbox" id="hide_full_classes"> 
+        Hide full classes
+    </label>
+    <div id="status"></div>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+</body>  
+</html>

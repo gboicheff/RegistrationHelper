@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "Registration Helper for UF",
     "version": "0.1",
+    "options_page": "options.html",
     "content_scripts": [
         {
           "matches": [
@@ -19,6 +20,7 @@
        "128": "icons/icon128.png" },
       
       "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
       ]
   }
